@@ -21,6 +21,6 @@ resource "aci_bridge_domain" "application_2" {
 
 resource "aci_subnet" "application_2" {
   parent_dn                    = "${aci_bridge_domain.application_2.id}"
-  ip                                  = "2.2.2.253/24"
+  ip                                  = "2.2.2.252/24"
   description                         = "This subject is created by terraform"
 }
