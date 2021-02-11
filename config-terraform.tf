@@ -11,7 +11,7 @@ terraform {
     organization = "terraform-cloud-multi-state-demo"
 
     workspaces {
-      name = "application_1"
+      name = "application_2"
     }
   }
 }
